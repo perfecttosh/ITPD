@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <div id="logo"> 
+            
+<img src="img/logo.jpg" alt="logo" width="70px"> 
+<div class="logo">
+<a href="#a_cat">Каталог </a>
+<a href="#a_loc"> Местоположение</a>
+    </div>
+</div>
+</header>
+<body>
+    <div class="form"><fieldset>
+        <h2>Анкета для заказа пиццы</h2>
+        <form class="invoker">
+            <label for="fio">Ваше ФИО</label>
+            <input type="text" id="fio" placeholder="Иванов Иван Иванович" required><br/>
+            <label for="adr">Адрес</label>
+            <input type="text" id="adr" placeholder="г.Ликино-Дулево,Первомайский проезд 1, подьезд 1, кв.1" required width="50px"><br/>
+            <label for="num">Номер телефона</label>
+            <input type="number" id="num" placeholder="+7/8 900 111 222 333" required> <br/>
+            <label for="pizza">Выберите пиццу</label>
+            <select id="pizza"><br/>
+                <option>Пепперони</option>
+                <option>Маргарита</option>
+                <option>Мясная</option>
+                <option>4 сыра</option>
+            </select>
+            <label for="res"></label><br/>
+            <input type="reset"id='res'> 
+            <label for="subm"></label>
+            <button id="sibm">Оплатить</button>
+        </fieldset>
+        </form>
+    </div>
+    <div class="table">
+<table><caption><a href='' id="a_cat">Каталог</a></caption>
+        <tr><th>Пицца</th>
+            <th>Состав</th>
+            <th>Цена</th>
+            <th>Фото</th>
+        </tr>
+        <tr>
+            <th>Пепперони</th>
+            <th>Пикантная пепперони, сладкий перец<br/> Моцарелла с фирменным томатным соусом</th>
+            <th>500руб</th>
+            <th><img src="img/pepperoni.webp" width="200px"></th>
+        </tr>
+        <tr>
+            <th>Маргарита</th>
+            <th>Моцарелла, сочными томатами, с фирменным томатным соусом</th>
+            <th>400руб</th>
+            <th><img src="img/margarita-senyorita.webp" width="200px"></th>
+        </tr>
+        <tr>
+            <th>Мясная</th>
+            <th>Супермясная пицца с пикантной пепперони, ветчиной, хрустящим беконом<br/> ароматной свининой, говядиной, Моцареллой и фирменным томатным соусом</th>
+            <th>600руб</th>
+            <th><img src="img/myasnaya.jpg" width="200px"></th>
+        </tr>
+        <tr>
+            <th>4 сыра</th>
+            <th>Традиционное сочетание сыров: Моцарелла, мягкий молодой сыр<br/> сыр с голубой плесенью, Чеддер, фирменный томатный соус и орегано</th>
+            <th>500руб</th>
+            <th><img src="img/4itiri-sira.jpg" width="200px"></th>
+        </tr> 
+          
+</table>
+</div>
+</body>
+</html>

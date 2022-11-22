@@ -1,0 +1,18 @@
+#logo 
+ {
+background-color: #ecffae;
+ ;}
+#logo .logo { 
+margin-bottom: 10px;
+float: right;
+width: 200px;
+margin-right: 2em;
+margin-top: 0.5em;}
+.invoker {justify-content: space-around;
+display: flexbox;}
+table,th,tr {border: 1px solid black;
+border-collapse: collapse;}
+.table {background-color: #c4adad;}
+
+
+ 
