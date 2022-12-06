@@ -1,0 +1,7 @@
+body > p:first-child {border: 3px dashed rgba(0, 0,0, .5);}
+body > p:last-child {
+    border-width: 1em 0.7em 2em 2.5em;
+    border-style: double;
+    border-color: rgba(255, 0, 0, .4);
+    border-bottom-color: rgba(0, 0, 255, .4);
+}
